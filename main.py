@@ -109,6 +109,8 @@ def calculate(hand):
             exit()
         else:
             print("Dealer Busted")
+            print("You Win!")
+            exit()
         return False
     else:
         return True
@@ -140,7 +142,3 @@ while playing:
         print("Dealer Had The Better Hand")
         print("Sorry You Loose")
     playing = False
-# count = 0
-# while count < 20:
-#     dealCard(playerHand)
-#     count += 1
